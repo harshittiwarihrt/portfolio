@@ -373,10 +373,11 @@ margin-top: -1rem;
 
 @media(min-width:480px) and (max-width:600px){
     .card{
-        min-width: 30%;
-        width: 90%;
+        /* min-width: 30%; */
+        width: 80%;
         height: 9.5rem;
         padding: 0 ;
+        left:3%;
         top:0rem;
     }
 
@@ -425,6 +426,11 @@ margin-top: -1rem;
         height: 5.4rem;
     
     }
+
+    .buttons{
+        position: relative;
+        left:2%;
+    }
  
 }
 
@@ -435,6 +441,7 @@ margin-top: -1rem;
         width: 90%;
         height: 10rem;
         padding: 0 ;
+        left:3%;
         top:0rem;
     }
 
@@ -490,6 +497,11 @@ margin-top: -1rem;
         height: 5.4rem;
     
     }
+
+    .buttons{
+        position: relative;
+        left:2%;
+        }
  
 }
 

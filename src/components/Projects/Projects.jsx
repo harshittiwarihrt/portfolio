@@ -83,7 +83,7 @@ export default function Projects() {
                         <div>
                             <h3>View morphing</h3>
                             <p><b>A shape preserving morphing algorithm.</b></p>
-                            <p>Given some images, we an create intermediate images that simulate the camera movement. We have also made the whole process automatic using existing feature selection methods.</p>
+                            <p>Given some images, we an create intermediate images that simulate the camera movement. clearWe have also made the whole process automatic using existing feature selection methods.</p>
                             <a href="https://github.com/harshittiwarihrt/View-morphing">
                                 <BsGithub style={{marginRight:'9px', position:'relative', top:'-2.5px'}}/>
                                 Github code

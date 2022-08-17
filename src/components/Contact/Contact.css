@@ -489,6 +489,10 @@
         display: flex;
         flex-direction: column;
     }
+
+    .getIT{
+      font-size: 25px;
+    }
   }
 
   

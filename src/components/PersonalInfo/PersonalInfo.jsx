@@ -20,7 +20,7 @@ export default function PersonalInfo() {
       <div className='pi-common'>
         <div className='pi-left'>
           
-          <div className="left1 card">
+          <div className="left1 card nohover">
             <div className="imgbx">
               <img src={boy2} alt="" />
             </div>

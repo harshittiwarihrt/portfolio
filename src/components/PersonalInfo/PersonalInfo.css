@@ -450,8 +450,13 @@ margin-top: -1rem;
         gap: 5rem;
     }
 
+    .card .content .details{
+        position: relative;
+        top:-40px;
+    }
+
     .card .content .details h2{
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 600;
         line-height: 1em;
     }
@@ -487,9 +492,8 @@ margin-top: -1rem;
         margin-top: 0.3rem;
     }
 
-    .card:hover{
-        height:14rem;
-        margin-top: -1.75rem;
+    .nohover{
+        pointer-events: none;
     }
 
     .card:hover .imgbx{
@@ -501,7 +505,11 @@ margin-top: -1rem;
     .buttons{
         position: relative;
         left:4%;
-        }
+    }
+
+    .card .content .details button{
+        display: none;
+    }
  
 }
 

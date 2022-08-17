@@ -324,7 +324,7 @@ main{
     }
 
     main{
-        height: 300px;
+        height: 320px;
     }
     
     .section{
@@ -371,12 +371,12 @@ main{
 
 @media(min-width:370px) and (max-width:450px){
     .heroImg{
-        height: 120px;
+        height: 130px;
         width: 160px;
     }
 
     main{
-        height: 260px;
+        height: 290px;
     }
     
     .section{
@@ -423,32 +423,32 @@ main{
 
 @media(min-width:340px) and (max-width:370px){
     .heroImg{
-        height: 100px;
+        height: 130px;
         width: 130px;
     }
 
     main{
-        height: 220px;
+        height: 270px;
     }
     
     .section{
-        padding: 2.6rem 0.7rem;
+        padding: 3rem 0.7rem;
     }
     
     .heroTopData{
         font-weight: 600;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     
     .heroHeading{
         font-weight: 700;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         margin-bottom: 0.2rem;
     }
     
     .cvBtn{
-        padding: 0.2rem 0.4rem;
-        font-size: 0.3rem;
+        padding: 0.3rem 0.45rem;
+        font-size: 0.45rem;
         font-weight:400;
     }
 
@@ -466,32 +466,32 @@ main{
 
 @media(min-width:300px) and (max-width:340px){
     .heroImg{
-        height: 100px;
+        height: 130px;
         width: 130px;
     }
 
     main{
-        height: 220px;
+        height: 270px;
     }
     
     .section{
-        padding: 2.6rem 0.7rem;
+        padding: 3rem 0.7rem;
     }
     
     .heroTopData{
         font-weight: 600;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     
     .heroHeading{
         font-weight: 700;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         margin-bottom: 0.2rem;
     }
     
     .cvBtn{
-        padding: 0.2rem 0.4rem;
-        font-size: 0.3rem;
+        padding: 0.3rem 0.45rem;
+        font-size: 0.45rem;
         font-weight:400;
     }
 

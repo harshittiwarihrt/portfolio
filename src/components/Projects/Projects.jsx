@@ -45,7 +45,7 @@ export default function Projects() {
                             <h3>delicioussss</h3>
                             <p><b>Full receipe app with ingredients and step by step instructions</b></p>
                             <p>With various cuisine options like American and Thai with a search facility where anyone can search there favourite receipe and help themselves by following the ingredients and instructions provided</p>
-                            <a href="#">
+                            <a href="https://harshiticious.netlify.app/">
                                 <BsGithub style={{marginRight:'9px', position:'relative', top:'-2.5px'}}/>
                                 Github code
                             </a>

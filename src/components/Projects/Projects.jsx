@@ -45,11 +45,11 @@ export default function Projects() {
                             <h3>delicioussss</h3>
                             <p><b>Full receipe app with ingredients and step by step instructions</b></p>
                             <p>With various cuisine options like American and Thai with a search facility where anyone can search there favourite receipe and help themselves by following the ingredients and instructions provided</p>
-                            <a href="https://harshiticious.netlify.app/">
+                            <a href="https://github.com/harshittiwarihrt/harshiticious-netlify">
                                 <BsGithub style={{marginRight:'9px', position:'relative', top:'-2.5px'}}/>
                                 Github code
                             </a>
-                            <a href="#">
+                            <a href="https://hita-store.vercel.app/">
                                 View Site
                             </a>
                         </div>

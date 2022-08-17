@@ -1,0 +1,515 @@
+main{
+    background-image: linear-gradient(to right, 
+                            #5F5F60, #5D5A60, #545458, #515057, #4A4B4F);
+    height: 800px;
+    padding: 8% 5%;
+}
+
+.sectionHero{
+    position: relative;
+    height: 100%;
+    background-image: linear-gradient(to right, 
+            #46494B,#404243,#343639,#2D2F31,#272728,#1F1F23,#1C1D21);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.section{
+    padding: 6rem 5rem;
+}
+
+.heroImg{
+    height: 550px;
+    width: 750px;
+}
+
+.heroPic{
+    position: relative;
+    float: right;
+    flex: 7;
+    top:-100px;
+    left:100px;
+
+}
+
+.sectionHeroData{
+    position: relative;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+.container{
+    margin: 0 auto;
+    position: relative;
+}
+
+.heroTopData{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #868686;
+}
+
+.heroHeading{
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #CEBDA1 ;
+    margin-bottom: 3rem;
+}
+
+.cvBtn{
+    text-transform: uppercase;
+    background: #CEBDA1 ;
+    padding: 1rem 2rem;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight:300;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cvBtn:hover{
+    color: black;
+    opacity: 0.8;  
+}
+
+.scrollDown{
+    position: relative;
+    top: 7%;
+    color: #868686;
+}
+
+.scrollDown span{
+    position: relative;
+    top:2%;
+    color: #868686 ;
+    margin-left: 3%;
+}
+
+@media(min-width:1150px) and (max-width:1300px){
+    .heroImg{
+        height: 500px;
+        width: 560px;
+    }
+
+    main{
+        height: 700px;
+    }
+    
+    .section{
+        padding: 6rem 5rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 2.2rem;
+    }
+    
+    .cvBtn{
+        padding: 1rem 1.2rem;
+        font-size: 1.2rem;
+        font-weight:300;
+    }
+    
+    .scrollDown{
+        position: relative;
+        top: 11%;
+    }
+    
+    .scrollDown span{
+        position: relative;
+        top:12%;
+        margin-left: 3%;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1150px){
+    .heroImg{
+        height: 420px;
+        width: 470px;
+    }
+
+    main{
+        height: 650px;
+    }
+    
+    .section{
+        padding: 6rem 5rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 1.65rem;
+        margin-bottom: 2rem;
+    }
+    
+    .cvBtn{
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+        font-weight:400;
+    }
+    
+    .scrollDown{
+        position: relative;
+        top: 11%;
+    }
+    
+    .scrollDown span{
+        position: relative;
+        top:12%;
+        margin-left: 3%;
+    }
+}
+
+@media(min-width:810px) and (max-width:1000px){
+    .heroImg{
+        height: 380px;
+        width: 420px;
+    }
+
+    main{
+        height: 580px;
+    }
+    
+    .section{
+        padding: 6rem 3rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .cvBtn{
+        padding: 0.6rem 0.8rem;
+        font-size: 0.7rem;
+        font-weight:400;
+    }
+
+    .heroPic{
+        position: relative;
+        float: right;
+        top:-70px;
+        left:95px;
+    
+    }
+}
+
+@media(min-width:640px) and (max-width:810px){
+    .heroImg{
+        height: 300px;
+        width: 360px;
+    }
+
+    main{
+        height: 480px;
+    }
+    
+    .section{
+        padding: 5rem 2rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1.3rem;
+    }
+    
+    .cvBtn{
+        padding: 0.5rem 0.7rem;
+        font-size: 0.5rem;
+        font-weight:400;
+    }
+
+    .heroPic{
+        position: relative;
+        float: right;
+        top:-30px;
+        left:56px;
+    
+    }
+    .scrollDown{
+        position: relative;
+        top: 7%;
+        color: #868686;
+    }
+    
+    .scrollDown span{
+        font-size: 0.6rem;
+        position: relative;
+        top:2%;
+        margin-left: 3%;
+    }
+}
+
+@media(min-width:520px) and (max-width:640px){
+    .heroImg{
+        height: 220px;
+        width: 260px;
+    }
+
+    main{
+        height: 390px;
+    }
+    
+    .section{
+        padding: 3.5rem 2rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 0.75rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 1.05rem;
+        margin-bottom: 1.1rem;
+    }
+    
+    .cvBtn{
+        padding: 0.4rem 0.55rem;
+        font-size: 0.45rem;
+        font-weight:400;
+    }
+
+    .heroPic{
+        position: relative;
+        float: right;
+        top:-30px;
+        left:56px;
+    
+    }
+    .scrollDown{
+        position: relative;
+        top: 7%;
+        color: #868686;
+    }
+    
+    .scrollDown span{
+        font-size: 0.6rem;
+        position: relative;
+        top:2%;
+        margin-left: 3%;
+    }
+}
+
+@media(min-width:450px) and (max-width:520px){
+    .heroImg{
+        height: 160px;
+        width: 200px;
+    }
+
+    main{
+        height: 300px;
+    }
+    
+    .section{
+        padding: 2.1rem 2rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 0.75rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 0.8rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    .cvBtn{
+        padding: 0.2rem 0.4rem;
+        font-size: 0.4rem;
+        font-weight:400;
+    }
+
+    .heroPic{
+        position: relative;
+        float: right;
+        top:15px;
+        left:56px;
+    
+    }
+    .scrollDown{
+        position: relative;
+        top: 7%;
+        color: #868686;
+    }
+    
+    .scrollDown span{
+        font-size: 0.6rem;
+        position: relative;
+        top:2%;
+        margin-left: 3%;
+    }
+}
+
+@media(min-width:370px) and (max-width:450px){
+    .heroImg{
+        height: 120px;
+        width: 160px;
+    }
+
+    main{
+        height: 260px;
+    }
+    
+    .section{
+        padding: 2.1rem 1.5rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 0.7rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 0.6rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .cvBtn{
+        padding: 0.2rem 0.4rem;
+        font-size: 0.4rem;
+        font-weight:400;
+    }
+
+    .heroPic{
+        position: relative;
+        float: right;
+        top:5px;
+        left:70px;
+    
+    }
+    .scrollDown{
+        position: relative;
+        top: 7%;
+        color: #868686;
+    }
+    
+    .scrollDown span{
+        font-size: 0.6rem;
+        position: relative;
+        top:2%;
+        margin-left: 3%;
+    }
+}
+
+@media(min-width:340px) and (max-width:370px){
+    .heroImg{
+        height: 100px;
+        width: 130px;
+    }
+
+    main{
+        height: 220px;
+    }
+    
+    .section{
+        padding: 2.6rem 0.7rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 0.5rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 0.5rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .cvBtn{
+        padding: 0.2rem 0.4rem;
+        font-size: 0.3rem;
+        font-weight:400;
+    }
+
+    .heroPic{
+        position: relative;
+        float: right;
+        top:-15px;
+        left:70px;
+    
+    }
+    .scrollDown{
+        display: none;
+    }
+}
+
+@media(min-width:300px) and (max-width:340px){
+    .heroImg{
+        height: 100px;
+        width: 130px;
+    }
+
+    main{
+        height: 220px;
+    }
+    
+    .section{
+        padding: 2.6rem 0.7rem;
+    }
+    
+    .heroTopData{
+        font-weight: 600;
+        font-size: 0.5rem;
+    }
+    
+    .heroHeading{
+        font-weight: 700;
+        font-size: 0.5rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .cvBtn{
+        padding: 0.2rem 0.4rem;
+        font-size: 0.3rem;
+        font-weight:400;
+    }
+
+    .heroPic{
+        position: relative;
+        float: right;
+        top:-15px;
+        left:50px;
+    
+    }
+    .scrollDown{
+        display: none;
+    }
+}
+
+
+
+
+
+
+

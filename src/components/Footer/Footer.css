@@ -1,0 +1,183 @@
+a{
+    text-decoration: none;
+}
+
+.mainFoot{
+    margin: 20px 0 0 0;
+    padding: 0 0;
+    height: 160px;
+    background-image: linear-gradient(to right, 
+    #5F5F60, #5D5A60, #545458, #515057, #4A4B4F);
+}
+.footIThalf{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". . .";
+    margin-left: 6%;
+    margin-right: -13%;
+    gap: 5px;
+}
+
+
+
+.footIThalf span{
+    margin-left: 8px;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.footIThalf span:hover{
+        color: #CEBDA1;
+        cursor: pointer;
+}
+
+.footIThalf div{
+    margin-top: 5px;
+}
+
+.footCopyright{
+    display: grid;
+    justify-content: center;
+}
+
+.footCopyright span{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    margin-left: 3px;
+    /* top:0.3px; */
+    bottom: 1.5px;
+    font-size: 0.55rem;
+}
+
+.footIcon{
+    color: white;
+}
+
+@media(max-width:1200px){
+    .mainFoot{
+        height: 150px;
+    }
+
+    .footIThalf{
+        grid-template-columns: 0.55fr 0.55fr 0.55fr;
+    }
+
+    .footIThalf{
+        margin-right: -12%;
+    }
+}
+
+@media(max-width:1000px){
+    .mainFoot{
+        height: 150px;
+    }
+
+    .footIThalf span{
+        margin-left: 8px;
+        font-size: 0.6rem;
+        color: white;
+    }
+
+    .footIThalf{
+        margin-right: -9%;
+    }
+}
+
+@media(min-width:650px) and (max-width:800px){
+    .mainFoot{
+        height: 150px;
+    }
+
+    .footIThalf span{
+        margin-left: 8px;
+        font-size: 0.5rem;
+        color: white;
+    }
+
+    .footIThalf img{
+        height: 70%;
+        width: 10%;
+    }
+
+    .footIThalf{
+        margin-right: -8%;
+    }
+}
+
+@media(min-width:530px) and (max-width:650px){
+
+    .mainFoot{
+        height: 150px;
+    }
+
+    .footIThalf span{
+        position: relative;
+        margin-left: 6px;
+        font-size: 0.4rem;
+        color: white;
+        bottom: 2px;
+    }
+
+    .footIThalf img{
+        height: 57%;
+        width: 8%;
+    }
+
+    .footIThalf{
+        margin-right: -7%;
+        gap: 4px;
+    }
+}
+
+@media(min-width:440px) and (max-width:530px){
+    .mainFoot{
+        height: 150px;
+    }
+
+    .footIThalf span{
+        position: relative;
+        margin-left: 6px;
+        font-size: 0.4rem;
+        color: white;
+        bottom: 2px;
+    }
+
+    .footIThalf img{
+        height: 57%;
+        width: 8%;
+    }
+
+    .footIThalf{
+        margin-right: -5%;
+        gap: 4px;
+    }
+}
+
+@media(min-width:240px) and (max-width:440px){
+
+    .mainFoot{
+        height: 150px;
+    }
+
+    .footIThalf span{
+        display: none;
+    }
+
+    .footIThalf img{
+        height: 80%;
+        width: 23%;
+        margin-bottom: 5px;
+    }
+
+    .footIThalf{
+        position: relative;
+        top:10px;
+        margin-right: -17%;
+    }
+
+}
+
+
+

@@ -1,0 +1,498 @@
+*{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.contactTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    margin-top: 0.7rem;
+    font-weight: bolder;
+    margin: 5rem 3rem 4rem 3rem;
+  }
+  
+  .preBox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .grid{
+      display: grid;
+      gap:4rem;
+  }
+  
+  .gridTwoColumn{
+      grid-template-columns: repeat(2, 1fr);  
+  }
+  
+  .myMap{
+      width: 100%;
+      height: 100%;
+  }
+    
+    .box {
+      width: 80%;
+      height: 95%;
+      padding: 40px;
+      box-sizing: border-box;
+      /* box-shadow: 0 25px 35px rgba(0, 0, 0, 0.5); */
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      border-radius: 10px;
+    }
+    
+    .box h2 {
+      position: relative;
+      bottom: 17px;
+      margin: 0;
+      padding: 0;
+      color: #CEBDA1;
+      text-align: center;
+      letter-spacing: 1.5px;
+      font-weight: bold;
+      /* font-family: "Times New Roman", Times, serif; */
+      font-size: 1.7rem;
+    }
+    
+    .box .inputbox {
+      position: relative;
+      letter-spacing: 1px;
+      /* border-bottom: 1px solid black; */
+    }
+  
+    .box .inputbox input {
+      border-bottom: 1px solid black !important;
+    }
+  
+  
+  ::-webkit-input-placeholder {color: white; color: black; opacity: 0.4;} /* Chrome/Opera/Safari */
+  ::-moz-placeholder { color: black; opacity: 0.4;} /* Firefox 19+ */
+  :-ms-input-placeholder { color: black; opacity: 0.4;} /* IE 10+ */
+  :-moz-placeholder {color: black; opacity: 0.4;}  /* Firefox 18- */
+  
+    .box .inputbox input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 1.5rem;
+      color: black !important;
+      margin-bottom: 30px;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+  
+    .PhoneButton{
+      text-transform: uppercase;
+      background: #CEBDA1 !important ;
+      margin-top: 1rem;
+      width: 30% !important;
+      border: none;
+      color: black !important;
+      font-size: 1.4rem !important;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  
+  .textAReaButton{
+    background: 'rgba(0, 0, 0, 0)';
+    color: black;
+    width:100%;
+    height:250px !important;
+  }
+  
+  .inputbox p{
+    color: red;
+  }
+
+  .contactContainer{
+        display: grid; 
+        grid-template-columns: 0.5fr 0.7fr; 
+        grid-template-rows: 1.1fr 1.2fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "Map Map"
+          "Hate apnaForm"; 
+  }
+
+.PreMap {
+  grid-area: Map;
+  margin-bottom: 5%;
+}
+
+.hate { grid-area: Hate; }
+.preBox { grid-area: apnaForm; }
+
+.hate{
+    font-size: 10px;
+}
+
+.getIT{
+    font-size: 4.7em;
+    margin-bottom: 10%;
+}
+
+.hate .dlForm{
+    font-size: 3.3em;
+    margin-bottom: 3%;
+}
+
+.hate a{
+    text-decoration: none;
+    color: #FF6374;
+    font-size: 1em;
+}
+
+.hate a:hover{
+    color: #116374;
+}
+
+.IconCallMA{
+    margin-left: 1%;
+}
+
+.callMA{
+    font-size: 2.6em;
+    margin-bottom: 2%;
+}
+
+.callMA u{
+    font-size: 1em;
+}
+
+.ocwmv{
+    font-size: 2.6em;
+    margin-bottom: 1.5%;
+}
+
+
+.SbICon{
+    display: flex;
+    margin-top: 3%;
+}
+
+.SbICon img{
+    height: 75%;
+}
+  
+  
+  @media(min-width:1230px) and (max-width:1500px){
+  
+    .grid{
+      gap:0rem;
+    }
+    .myMap{
+      width: 95%;
+      height: 85%;
+    }
+  
+    .box {
+      width: 70%;
+      height: 90%;
+      padding: 40px;
+      border-radius: 10px;
+      position: relative;
+      top:-8%;
+    }
+  
+    .box h2 {
+      position: relative;
+      bottom: 20px;
+      font-size: 1.4rem;
+    }
+  
+    .box .inputbox input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 1.2rem;
+      color: black !important;
+      margin-bottom: 20px;
+    }
+  
+    .textAReaButton{
+      height:100px !important;
+    }
+  
+    .PhoneButton{
+      margin-top: 0.5rem;
+      width: 30% !important;
+      font-size: 1.1rem !important;
+    }
+
+    .hate{
+        font-size: 8px;
+    }
+
+    .SbICon img{
+        height: 62%;
+    }
+
+  }
+
+  @media(min-width:800px) and (max-width:1230px){
+  
+    .grid{
+      gap:0rem;
+    }
+    .myMap{
+      width: 95%;
+      height: 85%;
+    }
+  
+    .box {
+      width: 70%;
+      height: 90%;
+      padding: 40px;
+      border-radius: 10px;
+      position: relative;
+      top:-8%;
+    }
+  
+    .box h2 {
+      position: relative;
+      bottom: 20px;
+      font-size: 1.4rem;
+    }
+  
+    .box .inputbox input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 1.2rem;
+      color: black !important;
+      margin-bottom: 20px;
+    }
+  
+    .textAReaButton{
+      height:100px !important;
+    }
+  
+    .PhoneButton{
+      margin-top: 0.5rem;
+      width: 30% !important;
+      font-size: 1.1rem !important;
+    }
+
+    .hate{
+        font-size: 8px;
+        position: relative;
+        left:10%;
+    }
+
+    .PreMap{
+      position: relative;
+      left:2.5%;
+    }
+
+    .SbICon img{
+        height: 62%;
+    }
+
+  }
+  
+  @media(min-width:650px) and (max-width:800px){
+
+    .contactTitle{
+      margin-bottom: 0px;
+    }
+
+    .grid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .box {
+      width: 500px;
+      height: 100%;
+      padding: 40px;
+      border-radius: 10px;
+    }
+  
+    .pdmg{
+      padding: 0.5rem 0.5rem !important;
+    }
+  
+    .box h2 {
+      position: relative;
+      bottom: 15px;
+      font-size: 1.2rem;
+    }
+  
+    .box .inputbox input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 1rem;
+      color: black !important;
+      margin-bottom: 10px;
+    }
+  
+    .textAReaButton{
+      height:100px !important;
+    }
+  
+    .PhoneButton{
+      margin-top: 0.5rem;
+      width: 50% !important;
+      font-size: 0.8rem !important;
+    }
+
+    .hate{
+        font-size: 8px;
+    }
+
+    .SbICon img{
+        height: 45%;
+        margin-bottom: 30%;
+    }
+
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactContainer .PreMap{
+      visibility: none !important;
+    }
+  }
+  
+  @media(min-width:430px) and (max-width:650px){
+    .contactTitle{
+      margin-bottom: 0px;
+    }
+  
+    .somePara{
+      font-size: 0.6rem !important;
+    }
+  
+    .myMap{
+      display: none !important;
+    }
+  
+    .grid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .box {
+      position: relative;
+      right:10px;
+      width: 300px;
+      height: 420px;
+      padding: 40px;
+      border-radius: 10px;
+    }
+  
+    .box h2 {
+      position: relative;
+      bottom: 20px;
+      font-size: 1.1rem;
+    }
+  
+    .box .inputbox input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 1rem;
+      color: black !important;
+      margin-bottom: 10px;
+    }
+  
+    .textAReaButton{
+      height:100px !important;
+    }
+  
+    .PhoneButton{
+      margin-top: 0.5rem;
+      width: 50% !important;
+      font-size: 0.8rem !important;
+    }
+
+    .hate{
+        font-size: 6.5px;
+    }
+
+    .SbICon img{
+        height: 32%;
+        margin-bottom: 30%;
+    }
+
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media(min-width:310px) and (max-width:430px){
+    .contactTitle{
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+  
+    .somePara{
+      font-size: 0.6rem !important;
+    }
+  
+    .myMap{
+      display: none !important;
+    }
+  
+    .grid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .box {
+      position: relative;
+      right:10px;
+      width: 250px;
+      height: 370px;
+      padding: 40px;
+      border-radius: 10px;
+    }
+  
+    .box h2 {
+      position: relative;
+      bottom: 20px;
+      font-size: 1.1rem;
+    }
+  
+    .box .inputbox input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 1rem;
+      color: black !important;
+      margin-bottom: 10px;
+    }
+  
+    .textAReaButton{
+      height:100px !important;
+    }
+  
+    .PhoneButton{
+      margin-top: 0.5rem;
+      width: 50% !important;
+      font-size: 0.8rem !important;
+    }
+
+    .hate{
+        font-size: 6.5px;
+    }
+
+    .SbICon img{
+        height: 32%;
+        margin-bottom: 30%;
+    }
+
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  
+    
+    
+  
+  

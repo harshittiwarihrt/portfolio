@@ -1,0 +1,586 @@
+/* .imgsz{
+    width: 100px;
+} */
+
+.portTitle{
+    font-size: 2.2rem;
+    margin-top: 0.7rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mrw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.proBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proContainer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem 0;
+}
+
+.proContainer .proCard{
+    position: relative;
+    height: 22rem;
+    background: #fff;
+    display: flex;
+    width: 43%;
+    margin: 1.9rem 0;
+    border-radius: 1.2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.proContainer .proCard .proImgbx{
+    position: absolute;
+    top:0.7rem;
+    left:0.6rem;
+    right: 0.6rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1.8rem);
+    /* height: calc(100%-20px); */
+    height: 94%;
+    width: calc(100%-20px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+
+}
+
+.proContainer .proCard:hover .proImgbx{
+    height: 150px;
+    width: 150px;
+    left:-75px;
+    top:30%;
+}
+
+.proContainer .proCard .proImgbx img{
+    max-width: 95%;
+    /* max-height: 100%; */
+
+}
+
+.proContainer .proCard:hover .proImgbx img{
+    max-width: 105px;
+    height: 50%;
+    filter: invert(0.4);
+    transition: 0.5s ease-in-out;
+}
+
+.proContainer .proCard .proContent{
+    position: absolute;
+    right: 0;
+    width: calc(100% - 75px);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proContainer .proCard .proContent h3{
+    color: #ff0057;
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.proContainer .proCard .proContent a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: black;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.proContainer .proCard .proContent a{
+    margin-right: 10px;
+}
+
+.icon img{
+    width:50%;
+    height: 50%;
+}
+
+@media (min-width:1070px) and (max-width:1500px){
+
+    .portTitle{
+        font-size: 2.2rem;
+        margin-top: 0.7rem;
+    }
+    
+    .mrw{
+        font-size: 0.85rem;
+    }
+    
+    .proContainer{
+        flex-wrap: wrap;
+        margin: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .proContainer .proCard{
+        position: relative;
+        height: 22rem;
+        width: 43%;
+        margin: 1.9rem 0;
+    }
+    
+    .proContainer .proCard .proImgbx{
+        position: absolute;
+        top:0.7rem;
+        left:0.6rem;
+        right: 0.6rem;
+        height: 94%;
+        width: calc(100%-20px);
+    }
+    
+    .proContainer .proCard:hover .proImgbx{
+        height: 150px;
+        width: 150px;
+        left:-75px;
+        top:30%;
+    }
+    
+    .proContainer .proCard .proImgbx img{
+        max-width: 95%;
+    }
+    
+    .proContainer .proCard:hover .proImgbx img{
+        max-width: 105px;
+        height: 50%;
+    }
+    
+    .proContainer .proCard .proContent{
+        position: absolute;
+        right: 0;
+        width: calc(100% - 75px);
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .proContainer .proCard .proContent h3{
+        margin-top: 5px;
+        font-size: 24px;
+    }
+
+    .proContainer .proCard .proContent p{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    
+    .proContainer .proCard .proContent a{
+        margin-top: 3px;
+        padding: 6px 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:880px) and (max-width:1070px){
+
+    .portTitle{
+        font-size: 2rem;
+        margin-top: 0.7rem;
+    }
+    
+    .mrw{
+        font-size: 0.85rem;
+    }
+    
+    .proContainer{
+        flex-wrap: wrap;
+        margin: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .proContainer .proCard{
+        position: relative;
+        height: 22rem;
+        width: 43%;
+        margin: 1.9rem 0;
+    }
+    
+    .proContainer .proCard .proImgbx{
+        position: absolute;
+        top:0.7rem;
+        left:0.6rem;
+        right: 0.6rem;
+        height: 94%;
+        width: calc(100%-20px);
+    }
+    
+    .proContainer .proCard:hover .proImgbx{
+        height: 150px;
+        width: 150px;
+        left:-75px;
+        top:30%;
+    }
+    
+    .proContainer .proCard .proImgbx img{
+        max-width: 95%;
+    }
+    
+    .proContainer .proCard:hover .proImgbx img{
+        max-width: 105px;
+        height: 50%;
+    }
+    
+    .proContainer .proCard .proContent{
+        position: absolute;
+        right: 0;
+        width: calc(100% - 75px);
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .proContainer .proCard .proContent h3{
+        margin-top: 5px;
+        font-size: 24px;
+    }
+
+    .proContainer .proCard .proContent p{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    
+    .proContainer .proCard .proContent a{
+        margin-top: 3px;
+        padding: 6.5px 8px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:650px) and (max-width:880px){
+    .proContainer{
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proContainer .proCard{
+        /* width: 600px; */
+        width: 70%;
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        margin: -20px 0;
+        box-shadow: none;
+    }
+
+    .proContainer .proCard .proImgbx{
+        position: relative;
+    }
+
+    .proContainer .proCard .proImgbx,
+    .proContainer .proCard:hover .proImgbx{
+        width: 100%;
+        height: 200px;
+        top:100px;
+        left:0%;
+    }
+
+    .proContainer .proCard:hover .proImgbx{
+        top:80px;
+    }
+
+    .proContainer .proCard .proImgbx img,
+    .proContainer .proCard:hover .proImgbx img{
+        width: 360px;
+        height: 150px;
+    }
+
+    .proContainer .proCard:hover .proImgbx img{
+        max-width: 260px;
+        height: 70%;
+        filter: drop-shadow(1);
+        transition: 0.5s ease-in-out;
+    }
+
+    .proContainer .proCard .proContent{
+        position: relative;
+        width: 100%;
+        background: #fff;
+        box-shadow:none;
+        border-radius: 20px;
+        padding: 20px 5px 40px;
+        border-top: 100px solid #fff;
+    }
+
+    .proContainer .proCard .proContent h3{
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .proContainer .proCard .proContent p{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    
+    .proContainer .proCard .proContent a{
+        margin-top: 3px;
+        padding: 12px 8px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width:480px) and (max-width:650px){
+    .proContainer{
+        position: relative;
+        width: 100%;
+    }
+
+    .proContainer .proCard{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        margin: -20px 0;
+        box-shadow: none;
+    }
+
+    .proContainer .proCard .proImgbx{
+        position: relative;
+    }
+
+    .proContainer .proCard .proImgbx,
+    .proContainer .proCard:hover .proImgbx{
+        width: 90%;
+        height: 200px;
+        top:100px;
+        left:0%;
+    }
+
+    .proContainer .proCard:hover .proImgbx{
+        top:80px;
+    }
+
+    .proContainer .proCard .proImgbx img,
+    .proContainer .proCard:hover .proImgbx img{
+        width: 260px;
+        height: 150px;
+    }
+
+    .proContainer .proCard:hover .proImgbx img{
+        max-width: 220px;
+        height: 70%;
+        filter: drop-shadow(1);
+        transition: 0.5s ease-in-out;
+    }
+
+    .proContainer .proCard .proContent{
+        position: relative;
+        width: 100%;
+        background: #fff;
+        box-shadow:none;
+        border-radius: 20px;
+        padding: 20px 0px 40px;
+        border-top: 100px solid #fff;
+    }
+
+    .proContainer .proCard .proContent h3{
+        margin-top: 5px;
+        font-size: 25px;
+    }
+
+    .proContainer .proCard .proContent p{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    
+    .proContainer .proCard .proContent a{
+        margin-top: 3px;
+        padding: 12px 8px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:380px) and (max-width:480px){
+
+    .proContainer{
+        margin: 0rem;
+        padding: 0rem 0;
+    }
+    .proContainer{
+        position: relative;
+        width: 100%;
+    }
+
+    .proContainer .proCard{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        margin: -20px 0;
+        box-shadow: none;
+    }
+
+    .proContainer .proCard .proImgbx{
+        position: relative;
+    }
+
+    .proContainer .proCard .proImgbx,
+    .proContainer .proCard:hover .proImgbx{
+        width: 100%;
+        height: 200px;
+        top:100px;
+        left:0%;
+    }
+
+    .proContainer .proCard:hover .proImgbx{
+        top:80px;
+    }
+
+    .proContainer .proCard .proImgbx img,
+    .proContainer .proCard:hover .proImgbx img{
+        width: 260px;
+        height: 150px;
+    }
+
+    .proContainer .proCard:hover .proImgbx img{
+        max-width: 220px;
+        height: 70%;
+        filter: drop-shadow(1);
+        transition: 0.5s ease-in-out;
+    }
+
+    .proContainer .proCard .proContent{
+        position: relative;
+        width: 100%;
+        background: #fff;
+        box-shadow:none;
+        border-radius: 20px;
+        padding: 20px 0px 40px;
+        border-top: 100px solid #fff;
+    }
+
+    .proContainer .proCard .proContent h3{
+        margin-top: 5px;
+        font-size: 22px;
+    }
+
+    .proContainer .proCard .proContent p{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    
+    .proContainer .proCard .proContent a{
+        margin-top: 3px;
+        padding: 12px 8px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:310px) and (max-width:380px){
+
+    .proContainer{
+        margin: 0rem;
+        padding: 0rem 0;
+    }
+    .proContainer{
+        position: relative;
+        width: 100%;
+    }
+
+    .proContainer .proCard{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        margin: -20px 0;
+        box-shadow: none;
+    }
+
+    .proContainer .proCard .proImgbx{
+        position: relative;
+    }
+
+    .proContainer .proCard .proImgbx,
+    .proContainer .proCard:hover .proImgbx{
+        width: 100%;
+        height: 160px;
+        top:100px;
+        left:0%;
+    }
+
+    .proContainer .proCard:hover .proImgbx{
+        top:80px;
+    }
+
+    .proContainer .proCard .proImgbx img,
+    .proContainer .proCard:hover .proImgbx img{
+        width: 160px;
+        height: 100px;
+    }
+
+    .proContainer .proCard:hover .proImgbx img{
+        max-width: 220px;
+        height: 70%;
+        filter: drop-shadow(1);
+        transition: 0.5s ease-in-out;
+    }
+
+    .proContainer .proCard .proContent{
+        position: relative;
+        width: 100%;
+        background: #fff;
+        box-shadow:none;
+        border-radius: 20px;
+        padding: 20px 0px 40px;
+        border-top: 100px solid #fff;
+    }
+
+    .proContainer .proCard .proContent h3{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .proContainer .proCard .proContent p{
+        margin-top: 5px;
+        font-size: 11px;
+    }
+    
+    .proContainer .proCard .proContent a{
+        margin-top: 3px;
+        padding: 12px 8px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .proContainer .proCard .proContent #na{
+        pointer-events: none;
+        /* cursor: not-allowed; */
+    }
+}
+

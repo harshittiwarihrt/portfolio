@@ -49,7 +49,7 @@ export default function Projects() {
                                 <BsGithub style={{marginRight:'9px', position:'relative', top:'-2.5px'}}/>
                                 Github code
                             </a>
-                            <a href="https://harshiticious.netlify.app/">
+                            <a href="https://harshiticious.vercel.app/">
                                 View Site
                             </a>
                         </div>

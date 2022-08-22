@@ -20,10 +20,10 @@ export default function Phone() {
 
         emailjs
             .sendForm(
-            "service_o8a986a",
-            "template_y00farp",
+            "service_wg4b0fr",
+            "template_uomczl4",
             form.current,
-            "Zd3qUfx7eBIQrcde5"
+            "boCWNMzhS2ZWGaWgc"  
             )
             .then(
             (result) => {

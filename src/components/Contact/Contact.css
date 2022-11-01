@@ -118,6 +118,9 @@
 
 .PreMap {
   grid-area: Map;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 5%;
 }
 
@@ -279,9 +282,12 @@
         left:10%;
     }
 
-    .PreMap{
-      position: relative;
-      left:2.5%;
+    .PreMap {
+      grid-area: Map;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5%;
     }
 
     .SbICon img{

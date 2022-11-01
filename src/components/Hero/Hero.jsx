@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero2.css'
 import backpic from '../../img/backpic.png'
 import {BsArrowDownCircleFill} from 'react-icons/bs'
-import Resume from './resume.pdf';
+import Resume from './Harshit_Tiwari_Resume.pdf';
 
 export default function Hero() {
   return (
